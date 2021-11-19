@@ -1,4 +1,4 @@
-name: CI
+name: CI-mod
 
 # Controls when the action will run. 
 on: 
