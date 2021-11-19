@@ -35,7 +35,7 @@ jobs:
         git config --global user.email "gotaduckyy@protonmail.com"
         git config --global user.name "Lenoix"
     - name: Load upstream commits
-      run: git pull https://github.com/hanwckf/rt-n56u.git --no-edit --strategy-option ours
+      run: git pull https://github.com/hanwckf/rt-n56u.git --no-edit --strategy-option ours --no-rebase
 
     - name: Push Commits
       env:
